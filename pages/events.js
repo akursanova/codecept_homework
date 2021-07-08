@@ -2,12 +2,12 @@ const { I } = inject();
 
 module.exports = {
 
-  moreEventsButton: 'div > div > .section__item > .rr-button > .rr-button__text',
-  typeFilter: '#app > main > section > div > div > div.grid__col.grid__col_lg-auto > div.events-filters > div.events-filters__container > div.d-none.d-md-block > div:nth-child(1) > div.filter__content',
-  triathlon: '#app > main > section > div > div > div.grid__col.grid__col_lg-auto > div.events-filters > div.events-filters__container > div.d-none.d-md-block > div:nth-child(1) > div.filter__content > div > div > div.multiselect__content-wrapper > ul > li:nth-child(32) > span',
-  running: '#app > main > section > div > div > div.grid__col.grid__col_lg-auto > div.events-filters > div.events-filters__container > div.d-none.d-md-block > div:nth-child(1) > div.filter__content > div > div > div.multiselect__content-wrapper > ul > li:nth-child(15) > span',
-  showButton: '.events-filters__footer > .grid > .grid__col > .rr-button_primary > .rr-button__text',
-  clearButton: '#app > main > section > div > div > div.grid__col.grid__col_lg-auto > div.events-filters > div.events-filters__container > div.d-none.d-md-block > div.events-filters__footer > div > div:nth-child(1) > button',
+  moreEventsButton: 'div  div  .section__item >.rr-button  .rr-button__text',
+  typeFilter: '.events-filters__container .filter:nth-child(1) .multiselect-container',
+  triathlon: '.d-none.d-md-block > div:nth-child(1) > div.filter__content > div > div > div.multiselect__content-wrapper > ul > li:nth-child(32) > span',
+  running: '.d-none.d-md-block > div:nth-child(1) > div.filter__content > div > div > div.multiselect__content-wrapper > ul > li:nth-child(15) > span',
+  showButton: ' .grid  .grid__col > .rr-button_primary > .rr-button__text',
+  clearButton: '.d-none.d-md-block .events-filters__footer > div > div:nth-child(1) > button',
   resultsLink: '.section__subheader [data-index = \'3\']',
 
   moreEvents() {
